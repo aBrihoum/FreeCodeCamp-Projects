@@ -7,7 +7,7 @@
 **[FreeCodeCamp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/) JavaScript Algorithms and Data Structures Projects Solutions**
 
 [![Brihoum Abdjalil FreeCodeCamp Certification](https://img.shields.io/badge/certification-1a1a3e?style=for-the-badge&logo=freecodecamp "Brihoum Abdjalil FreeCodeCamp JavaScript Algorithms and Data Structures Certification")](https://www.freecodecamp.org/certification/brihoum/javascript-algorithms-and-data-structures)
-[![FreeCodeCamp Solutions explained](https://img.shields.io/badge/explanation-000000?style=for-the-badge&logo=dev.to "JavaScript Algorithms and Data Structures Solutions explanation")](https://www.freecodecamp.org/certification/brihoum/javascript-algorithms-and-data-structures)
+[![FreeCodeCamp Solutions explained](https://img.shields.io/badge/explanation-000000?style=for-the-badge&logo=dev.to "JavaScript Algorithms and Data Structures Solutions explanation")](https://dev.to/brihoum/solving-freecodecamp-javascript-algorithms-and-data-structures-projects-2bi5)
 
 </div>
 
