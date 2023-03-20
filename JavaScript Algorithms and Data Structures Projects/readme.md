@@ -1,19 +1,15 @@
 <!-- # FreeCodeCamp JavaScript Algorithms and Data Structures Projects Solutions -->
 
-<center>
+<div align="center">
 
 <img width="110" src="https://i.ibb.co/GcxH3tq/fcc.webp" alt="freecodecamp logo">
-
-</center>
-
-<center>
 
 **[FreeCodeCamp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/) JavaScript Algorithms and Data Structures Projects Solutions**
 
 [![Brihoum Abdjalil FreeCodeCamp Certification](https://img.shields.io/badge/certification-1a1a3e?style=for-the-badge&logo=freecodecamp "Brihoum Abdjalil FreeCodeCamp JavaScript Algorithms and Data Structures Certification")](https://www.freecodecamp.org/certification/brihoum/javascript-algorithms-and-data-structures)
 [![FreeCodeCamp Solutions explained](https://img.shields.io/badge/explanation-000000?style=for-the-badge&logo=dev.to "JavaScript Algorithms and Data Structures Solutions explanation")](https://www.freecodecamp.org/certification/brihoum/javascript-algorithms-and-data-structures)
 
-</center>
+</div>
 
 ---
 
