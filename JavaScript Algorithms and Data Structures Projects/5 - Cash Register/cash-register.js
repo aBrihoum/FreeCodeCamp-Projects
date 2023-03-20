@@ -22,25 +22,19 @@ function checkCashRegister(price, cash, cid) {
     let changeArray = [];
     cid.reverse().forEach((el) => {
       const coinName = el[0];
-      const coinValueInDollars = Number(el[1]);
-      const coinEquivalentInDollars = Number(rate[coinName]);
-      let howMuchCoinIHaveInDrawer = Number(
-        (coinValueInDollars / coinEquivalentInDollars).toFixed(2)
+      const coinTotalValueInDollars = Number(el[1]);
+      const selectedCurrency = Number(rate[coinName]);
+      let coinsAvailable = Number(
+        (coinTotalValueInDollars / selectedCurrency).toFixed(2)
       );
-      let numberOfCoinsToReturn = 0;
-      while (
-        change >= coinEquivalentInDollars &&
-        howMuchCoinIHaveInDrawer > 0
-      ) {
-        change = Number((change - coinEquivalentInDollars).toFixed(2));
-        --howMuchCoinIHaveInDrawer;
-        ++numberOfCoinsToReturn;
+      let coinsToReturn = 0;
+      while (change >= selectedCurrency && coinsAvailable > 0) {
+        change = Number((change - selectedCurrency).toFixed(2));
+        --coinsAvailable;
+        ++coinsToReturn;
       }
-      if (numberOfCoinsToReturn > 0) {
-        changeArray.push([
-          coinName,
-          numberOfCoinsToReturn * coinEquivalentInDollars,
-        ]);
+      if (coinsToReturn > 0) {
+        changeArray.push([coinName, coinsToReturn * selectedCurrency]);
       }
     });
     if (change === 0) {
